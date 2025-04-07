@@ -24,7 +24,8 @@ Pinia で state に counter があり、アプリを動かすと以下のボタ�
 - Reset
   - counter をリセットする
   </dl>
-  ボタンを押すと下部に表示しているcounterの値が変わります。
+
+ボタンを押すと下部に表示している counter の値が変わります。
 
 direct_counter は、\$subscribe したコールバック関数で direct 更新（mutation.type='direct'）を検知したら+1 します。  
 patch_counter は、\$patch 更新（mutation.type='patch object'）を検知したら+1 します。  
